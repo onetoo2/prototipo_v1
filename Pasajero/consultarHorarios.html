@@ -10,16 +10,21 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
 	<script src="js/funciones.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Consultar Horarios</h1>
 		<p>Completa la siguiente información para buscar horarios disponibles:</p>
 	</header>
 	
 	<div class="contenedor">
+
 		<label>Punto de Partida:</label>
 		<select>
 			<option value="cu">CU</option>
@@ -35,6 +40,7 @@
 			<option value="bicentenario">Campus Bicentenario</option>
 			<option value="cu">CU</option>
 		</select>
+		
 	</div>
 
 	<button class="correcto" onclick="navegar('horariosDisponibles.html')">Consultar</button>	

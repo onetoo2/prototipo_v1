@@ -27,39 +27,13 @@
 }
 
 
-nav, footer, .top{
+nav{
 	width: 100%;
 	position: fixed;
 	left: 0;
-}
-/*.top{
-	top: 0;
-	height: 2em;
-	background: var(--azul);
-}
-nav{
-	top: 2em;
-	height: 4em;
-	background: var(--azulPrincipal);
-}*/
-
-footer{
-	display: none;
-}
-nav{
 	top: 0;
 	height: 4.5em;
 	background: var(--azulPrincipal);
-}
-
-footer{
-	bottom: 0;
-	height: 2em;
-	background: var(--grisClaro);
-	padding-top: .5em;
-	box-sizing: border-box;
-	color: var(--gris);
-	text-align: center;
 }
 
 header, form{
@@ -116,21 +90,18 @@ a{
 	margin-top: 1em;
 }
 
-#nav-login-registro img{
-	width: 13.5%;
-	margin: 1.5%;
+
+.contenido-nav img{
+	width:2.5rem;
+	margin: 1em;
 	height: auto;
 	max-width: 14%;
 	float: left;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
 }
 
-#nav-login-registro label{
-	color: var(--blanco);
-	margin-top: 1.5em;
-	float: left;
-}
-
-#nav-login-registro img, nav label{
+.contenido-nav img, nav label{
 	cursor: pointer;
 }
 

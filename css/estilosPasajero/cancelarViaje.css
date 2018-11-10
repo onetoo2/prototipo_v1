@@ -25,11 +25,13 @@
 }
 .dato p{
 	color: var(--gris2);
+	font-size: 1.1em;
 }
 .dato label{
-	float: left;
+	display: block;
 	margin-right: 5px;
 	color: var(--label);
+	font-size: 1.1em;
 }
 
 .btns{

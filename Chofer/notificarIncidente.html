@@ -9,16 +9,21 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/form.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+	
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Notificar Incidente</h1>
 		<p>Llena los campos correspondientes para notificar el incidente:</p>
 	</header>
 	
 	<form class="incidente">
+
 		<label>Hora:</label>
 		<input type="text" name="" placeholder="Hora del incidente">
 
@@ -30,9 +35,8 @@
 
 		<button class="aceptar">Notificar</button>
 		<button class="cancelar">Cancelar</button>
+
 	</form>
 
-
-	<footer>UAQ-ANDA</footer>
 </body>
 </html>

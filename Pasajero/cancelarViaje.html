@@ -8,11 +8,15 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/calificarViaje.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
+	<script src=../js/funcionesEstilos.js></script>  
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+	
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Cancelar Viaje</h1>
 		<p>Da click en el botón para cancelar el viaje</p>
@@ -21,22 +25,27 @@
 	<section>
 		<div>
 			<h2>Unidad</h2>
+
 			<label>Punto partida:</label>
 			<p>CU</p>
+
 			<label>Punto llegada:</label>
 			<p>Campus Juriquilla</p>
+
 		</div>
 
 		<div>
 			<h2>Horario</h2>
+
 			<label>Horario viaje:</label>
 			<p>CU</p>
+
 			<label>Fecha:</label>
 			<p>19-07-18</p>
+
 		</div>
 	</section>
 
-	
 	<div class="btns">
 		<button class="cancelar">Cancelar viaje</button>	
 		<button class="aceptar">Regresar</button>
@@ -52,6 +61,5 @@
 		}
 	</style>
 
-	<footer>UAQ-ANDA</footer>
 </body>
 </html>

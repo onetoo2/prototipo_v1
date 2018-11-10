@@ -11,16 +11,21 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilosChofer/solicitarUnidad.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/consultarHorarios.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Solicitar Unidad</h1>
 		<p>Llena los campos correspondientes para emitir la solicitud:</p>
 	</header>
 	
 	<form class="contenedor">
+
 		<label>Punto de Llegada:</label>
 		<select>
 			<option value="juriquilla">Campus Juriquilla</option>
@@ -34,9 +39,8 @@
 
 		<button class="aceptar">Aceptar</button>
 		<button class="cancelar">Cancelar</button>
+
 	</form>
-
-
-	<footer>UAQ-ANDA</footer>
+	
 </body>
 </html>

@@ -10,16 +10,21 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/form.css">
 	<script src="js/funciones.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Editar Perfil</h1>
 		<p>Llena los campos a editar:</p>
 	</header>
 	
 	<form id="editarPerfil" class="editarPerfil">
+
 		<label>Expediente:</label>
 		<input type="text" name="" placeholder="No. expediente">
 		
@@ -46,6 +51,5 @@
 
 	</form>
 
-	<footer>UAQ-ANDA</footer>
 </body>
 </html>

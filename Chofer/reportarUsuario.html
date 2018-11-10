@@ -8,17 +8,22 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/form.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
+	<script src=../js/funcionesEstilos.js></script>  
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+	
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Reportar Usuario</h1>
 		<p>Llena los campos correspondientes para emitir el reporte:</p>
 	</header>
 	
 	<form class="contenedor">
+
 		<label>Expediente:</label>
 		<input type="text" name="" placeholder="Expediente del usuario:">
 
@@ -27,9 +32,8 @@
 
 		<button class="aceptar">Reportar</button>
 		<button class="cancelar">Cancelar</button>
+
 	</form>
 
-
-	<footer>UAQ-ANDA</footer>
 </body>
 </html>

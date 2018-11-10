@@ -8,32 +8,42 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/horariosDisponibles.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
-	<div class="top"></div>
-	<nav></nav>
+
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
+
 	<header>
 		<h1>Horarios Disponibles</h1>
 		<p>Horarios disponibles encontrados:</p>
 	</header>
 
 	<section id="datosHorario" class="datosHorario">
+
 		<div class="dato">
 			<label>Fecha:</label>
 			<p>11/09/2018</p>
 		</div>
+
 		<div class="dato">
 			<label>Punto de Partida:</label>
 			<p>CU</p>
 		</div>
+
 		<div class="dato">
 			<label>Punto de Llegada:</label>
 			<p>Campus Juriquilla</p>
 		</div>
+
 	</section>
 
 	<section id="horarios" class="horarios">
+
 		<div id="horario" class="horario">
+
 			<label id="hora"><span>6:30</span> a.m</label>
 			<ul>
 				<li>
@@ -46,6 +56,7 @@
 				</li>
 			</ul>
 		</div>
+
 		<div id="horario" class="horario">
 			<label id="hora"><span>7:30</span> a.m</label>
 			<ul>
@@ -59,6 +70,7 @@
 				</li>
 			</ul>
 		</div>
+		
 		<div id="horario" class="horario">
 			<label id="hora"><span>8:30</span> a.m</label>
 			<ul>
@@ -75,6 +87,5 @@
 		
 	</section>
 
-	<footer>UAQ-ANDA</footer>
 </body>
 </html>
