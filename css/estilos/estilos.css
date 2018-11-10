@@ -10,7 +10,8 @@
 	--verde: #26A86A;
 	--rojo: #F84949;
 	--azulObscuro: #00262C;
-	--azulPrincipal: #596DFF;
+	/*--azulPrincipal: #596DFF;*/
+	--azulPrincipal: #4F79D2;
 	--grisClaro: #DADEDE;
 	--gris: #4C4E4E;
 	--gris2: #4D4A4A;
@@ -31,7 +32,7 @@ nav, footer, .top{
 	position: fixed;
 	left: 0;
 }
-.top{
+/*.top{
 	top: 0;
 	height: 2em;
 	background: var(--azul);
@@ -39,6 +40,11 @@ nav, footer, .top{
 nav{
 	top: 2em;
 	height: 4em;
+	background: var(--azulPrincipal);
+}*/
+nav{
+	top: 0;
+	height: 4.5em;
 	background: var(--azulPrincipal);
 }
 
@@ -58,7 +64,7 @@ header, form{
 }
 
 header{
-	margin-top: 9em;
+	margin-top: 6.7em;
 	margin-bottom: 1.5em;
 }
 
@@ -91,9 +97,6 @@ button, input[type=submit]{
 	font-size: 1em;
 }
 
-input, textarea{
-	outline: none;
-}
 
 h1{
 	font-weight: lighter;

@@ -11,11 +11,11 @@
          Aplicación de transporte UAQ-ANDA
     </description>
 
-    <author email="paola_qdr@hotmail.com">
+    <author name="UAQ-ANDA">
         UAQ-ANDA
     </author>
-    <preference name="orientation" value="portrait" />
-    <preference name="fullscreen"  value="true" />
+    <!--<preference name="orientation" value="portrait" />
+    <preference name="fullscreen"  value="true" />-->
 
     <!-- Plugins -->
 
