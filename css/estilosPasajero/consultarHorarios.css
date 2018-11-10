@@ -11,6 +11,7 @@
 .contenedor label{
 	display: block;
 	margin-bottom: .5em;
+	font-size: 1.2em;
 }
 
 .contenedor select{
@@ -19,6 +20,8 @@
 	border-radius: 5px;
 	height: 2.5em;
 	border: 1px solid rgba(0,0,0,.2);
+	font-size: 1em;
+	background: var(--claro);
 	font-family: var(--fuente);
 	box-sizing: border-box;
 	padding: 5px;

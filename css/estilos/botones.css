@@ -2,7 +2,7 @@
 .aceptar,#btn-regresarViaje{
 	background: var(--azulMarino);
 }
-#btn-login{
+.azul{
 	background: var(--azul);
 }
 .correcto{
@@ -15,4 +15,9 @@
 
 .cancelar, #btn-reportarUsuario{
 	background: var(--rojo);
+}
+
+
+.linkCancelar{
+	color: var(--rojo);
 }

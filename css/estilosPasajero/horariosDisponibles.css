@@ -3,8 +3,8 @@ body{
 	font-size: .9em;
 }
 .datosHorario, .horarios{
-	width: 70%;
-	margin-left: 15%;
+	width: 80%;
+	margin-left: 10%;
 	/*color: #4F79D2;*/
 	float: left;
 }
@@ -13,6 +13,7 @@ body{
 	width: 100%;
 	float: left;
 	max-height: 25px;
+	font-size: 1.1em;
 }
 .dato label{
 	float: left;
@@ -41,11 +42,13 @@ label{
 	padding-left: 10px;
 	color: #fff;
 	border-radius: 5px;
+	font-size: 1.2em;
 }
 
 .horario ul{
 	padding: 0;
 	margin-left: 2em;
+	font-size: 1.1em;
 }
 .horario ul>li{
 	margin-left: 0;

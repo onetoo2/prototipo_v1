@@ -1,8 +1,8 @@
 section{
 	color: var(--gris2);
 	font-size: .95em;
-	width: 70%;
-	margin-left: 15%;
+	width: 80%;
+	margin-left: 10%;
 	margin-bottom: 4em;
 }
 
@@ -15,10 +15,13 @@ section p{
 	margin-top: .2em;
 }
 
+section label, p{
+	font-size: 1.1em;
+}
 section h2{
 	padding: .3em;
 	box-sizing: border-box;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: center;
 	letter-spacing: .2px;
 	border: none;
@@ -36,8 +39,11 @@ div{
 
 #retroalimentacion{
 	margin-top: 1.5em;
+	margin-bottom: 0;
 }
-
+#retroalimentacion label{
+	line-height: 20px;
+}
 #retroalimentacion textarea{
 	width: 100%;
 	margin-top: 1em;
@@ -50,11 +56,11 @@ div{
 	padding: 5px;
 	font-family: 'Questrial', sans-serif; 
 	color: var(--gris2);
-	font-size: .9em;
+	font-size: 1em;
 	box-sizing: border-box;
 }
 
-section button{
+button{
 	margin-top: 1em;
 	background: var(--obscuro);
 }
