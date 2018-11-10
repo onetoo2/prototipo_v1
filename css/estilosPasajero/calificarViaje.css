@@ -50,7 +50,7 @@ div{
 	height: 100px;
 	max-height: 100px;
 	resize: none;
-	background: var(--calro);
+	background: var(--claro);
 	border: 1px solid rgba(0,0,0,.2);
 	border-radius: 5px;
 	padding: 5px;

@@ -4,4 +4,5 @@
 }
 .contenedor input[type=submit], .contenedor button{
 	margin-left: 0;
+	margin-bottom: 1em;
 }
