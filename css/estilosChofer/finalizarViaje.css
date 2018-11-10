@@ -1,6 +1,5 @@
 section{
 	color: var(--gris2);
-	font-size: .95em;
 	width: 80%;
 	margin-left: 10%;
 	margin-bottom: 4em;
@@ -33,34 +32,12 @@ section h2{
 	/*color: var(--gris);*/
 }
 
-div{
-	margin-bottom: 1.7em;
-}
 
-.retroalimentacion{
-	margin-top: 1.5em;
+section .datosViaje{
 	margin-bottom: 0;
 }
-.retroalimentacion label{
-	line-height: 20px;
-}
-.retroalimentacion textarea{
-	width: 100%;
-	margin-top: 1em;
-	height: 100px;
-	max-height: 100px;
-	resize: none;
-	background: var(--calro);
-	border: 1px solid rgba(0,0,0,.2);
-	border-radius: 5px;
-	padding: 5px;
-	font-family: 'Questrial', sans-serif; 
-	color: var(--gris2);
-	font-size: 1em;
-	box-sizing: border-box;
-}
 
-button{
-	margin-top: 1em;
-	background: var(--obscuro);
+section button{
+	margin-top: 0;
+	margin-bottom: 1em;
 }
