@@ -1,0 +1,60 @@
+section{
+	color: var(--gris2);
+	font-size: .95em;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 4em;
+}
+
+section label{
+	margin-bottom: .3em;
+	color: var(--label);
+	margin-bottom: 0;
+}
+section p{
+	margin-top: .2em;
+}
+
+section h2{
+	padding: .3em;
+	box-sizing: border-box;
+	font-size: 1em;
+	text-align: center;
+	letter-spacing: .2px;
+	border: none;
+	border-radius: 5px;
+	/*border-bottom: 2px solid rgba(0,0,0,.1);*/
+	font-weight: lighter;
+	background: var(--azulClaro);
+	color: var(--blanco);
+	/*color: var(--gris);*/
+}
+
+div{
+	margin-bottom: 1.7em;
+}
+
+#retroalimentacion{
+	margin-top: 1.5em;
+}
+
+#retroalimentacion textarea{
+	width: 100%;
+	margin-top: 1em;
+	height: 100px;
+	max-height: 100px;
+	resize: none;
+	background: var(--calro);
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 5px;
+	padding: 5px;
+	font-family: 'Questrial', sans-serif; 
+	color: var(--gris2);
+	font-size: .9em;
+	box-sizing: border-box;
+}
+
+section button{
+	margin-top: 1em;
+	background: var(--obscuro);
+}

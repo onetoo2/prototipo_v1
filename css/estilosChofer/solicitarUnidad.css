@@ -1,0 +1,15 @@
+.contenedor textarea{
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+.contenedor input[type=submit], .contenedor button{
+	margin-left: 0;
+}
+
+.contenedor input[type=submit]{
+	background-color: var(--azul);
+}
+
+.contenedor button{
+	background-color: var(--rojo);
+}

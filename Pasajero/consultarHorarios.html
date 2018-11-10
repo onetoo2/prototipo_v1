@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>UAQ-ANDA - Consultar Horarios</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/consultarHorarios.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
+	<script src="js/funciones.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+</head>
+<body>
+	<nav></nav>
+	<header>
+		<h1>Consultar Horarios</h1>
+		<p>Completa la siguiente información para buscar horarios disponibles:</p>
+	</header>
+	
+	<div class="contenedor">
+		<label>Punto de Partida:</label>
+		<select>
+			<option value="cu">CU</option>
+			<option value="aeropuerto">Campus Aeropuerto</option>
+			<option value="juriquilla">Campus Juriquilla</option>
+			<option value="bicentenario">Campus Bicentenario</option>
+		</select>
+
+		<label>Punto de Llegada:</label>
+		<select>
+			<option value="juriquilla">Campus Juriquilla</option>
+			<option value="aeropuerto">Campus Aeropuerto</option>
+			<option value="bicentenario">Campus Bicentenario</option>
+			<option value="cu">CU</option>
+		</select>
+	</div>
+
+	<button class="correcto" onclick="navegar('horariosDisponibles.html')">Consultar</button>	
+
+	<footer>UAQ-ANDA</footer>
+</body>
+</html>

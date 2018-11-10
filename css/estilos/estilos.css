@@ -1,0 +1,109 @@
+*{
+	font-family: 'Questrial', 'Segoe UI',sans-serif;
+}
+:root{
+	/*--fuente: 'Questrial', sans-serif;*/
+	--azulMarino: #385f75;
+	--azulMarino2: #2d79a4;
+	--azul:  #2D79A4;
+	--azul2: #305CBA;
+	--verde: #26A86A;
+	--rojo: #F84949;
+	--azulObscuro: #00262C;
+	--azulPrincipal: #596DFF;
+	--grisClaro: #DADEDE;
+	--gris: #4C4E4E;
+	--gris2: #4D4A4A;
+	--titulo: #67789B;
+	--blanco: #fff;
+	--label: #4F79D2;
+	--labelAzul: #4672D0;
+	--link: #038CDE;
+	--azulCielo: #59ADFF;
+	--azulClaro: #7092DB;
+	--claro: #FCFCFC;
+	--obscuro: #2E2E2D;
+}
+
+
+nav, footer{
+	width: 100%;
+	position: fixed;
+	left: 0;
+}
+nav{
+	top: 0;
+	min-height: 4em;
+	background: var(--azulPrincipal);
+}
+
+footer{
+	bottom: 0;
+	height: 2em;
+	background: var(--grisClaro);
+	padding-top: .5em;
+	box-sizing: border-box;
+	color: var(--gris);
+	text-align: center;
+}
+
+header, form{
+	width: 70%;
+	margin-left: 15%;
+}
+
+header{
+	margin-top: 7em;
+	margin-bottom: 1.5em;
+}
+
+header h1{
+	color: var(--titulo);
+	text-align: center;
+}
+
+header p{
+	color: rgba(0,0,0,.5);
+	font-size: 1.1em;
+	text-align: center;
+	line-height: 20px; 
+}
+
+
+button, input[type=submit]{
+	width: 60%;
+	margin-left: 20%;
+	font-family: var(--fuente);
+	height: 2.5em;
+	border-radius: 20px;
+	border:0;
+	color: var(--blanco); 
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+
+h1{
+	font-weight: lighter;
+	text-align: center;
+}
+
+#nav-login-registro img{
+	width: 13.5%;
+	margin: 1.5%;
+	height: auto;
+	max-width: 14%;
+	float: left;
+}
+
+#nav-login-registro label{
+	color: var(--blanco);
+	margin-top: 1.5em;
+	float: left;
+}
+
+#nav-login-registro img, nav label{
+	cursor: pointer;
+}

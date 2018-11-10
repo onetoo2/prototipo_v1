@@ -1,0 +1,50 @@
+form label{
+	display: block;
+	margin-bottom: .3em;
+	color: var(--label);
+}
+
+form input{
+	height: 1.8em;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: var(--fuente);
+	color: var(--gris2);
+	border: none;
+	margin-top: .5em;
+	margin-bottom: 1.5em;
+	background: none;
+	font-size: .9em;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+}
+
+form a{
+	width: 100%;
+	text-align: center;
+	display: block; 
+	color: var(--link);
+	text-decoration: none;
+	margin-top: 1em;
+}
+
+form{
+	margin-bottom: 4em;
+}
+
+form textarea{
+	width: 100%;
+	margin-top: 1em;
+	height: 100px;
+	max-height: 100px;
+	resize: none;
+	background: var(--claro);
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 5px;
+	padding: 5px;
+	font-family: 'Questrial', sans-serif; 
+	color: var(--gris2);
+	font-size: 1em;
+	box-sizing: border-box;
+}

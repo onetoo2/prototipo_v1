@@ -1,0 +1,42 @@
+
+.contenido{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 2.5em;
+}
+.dato{
+	box-sizing: border-box;
+	margin-bottom: 2em;
+}
+
+.dato h3{
+	padding: .3em;
+	box-sizing: border-box;
+	font-size: 1em;
+	text-align: center;
+	letter-spacing: .2px;
+	border: none;
+	border-radius: 5px;
+	/*border-bottom: 2px solid rgba(0,0,0,.1);*/
+	font-weight: lighter;
+	background: var(--azulClaro);
+	color: var(--blanco);
+	/*color: var(--gris);*/
+}
+.dato p{
+	color: var(--gris2);
+}
+.dato label{
+	float: left;
+	margin-right: 5px;
+	color: var(--label);
+}
+
+.btns{
+	width: 80%;
+	margin-left: 10%;
+}
+.btns>button{
+	width: 50%;
+	margin-left: 25%;
+}

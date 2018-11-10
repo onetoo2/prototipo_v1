@@ -1,0 +1,18 @@
+
+.aceptar,#btn-regresarViaje{
+	background: var(--azulMarino);
+}
+#btn-login{
+	background: var(--azul);
+}
+.correcto{
+	background: var(--verde);
+}
+
+.obscuro{
+	background: var(--obscuro);
+}
+
+.cancelar, #btn-reportarUsuario{
+	background: var(--rojo);
+}

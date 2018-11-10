@@ -1,0 +1,52 @@
+body{
+	color: var(--gris2);
+	font-size: .9em;
+}
+.datosHorario, .horarios{
+	width: 70%;
+	margin-left: 15%;
+	/*color: #4F79D2;*/
+	float: left;
+}
+
+.dato{
+	width: 100%;
+	float: left;
+	max-height: 25px;
+}
+.dato label{
+	float: left;
+}
+.dato p{
+	margin-top: 0;
+	float: right;
+	margin-right: 5px;
+}
+
+label{	
+	color: var(--labelAzul);
+}
+
+.horarios{
+	margin-top: 1em;
+	margin-bottom: 4em;
+}
+
+.horario label{
+	background: var(--azulClaro);
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 5px;
+	padding-left: 10px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.horario ul{
+	padding: 0;
+	margin-left: 2em;
+}
+.horario ul>li{
+	margin-left: 0;
+}

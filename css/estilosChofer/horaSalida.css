@@ -1,0 +1,16 @@
+.datosSalida{
+	width: 50%;
+	margin-left: 30%;
+	margin-bottom: 1em;
+	margin-top: 0;
+	font-size: .95em;
+}
+.dato p{
+	color: var(--gris2);
+}
+.dato label{
+	margin-right: 5px;
+	float: left;
+	color: var(--label);
+	text-align: center;
+}
