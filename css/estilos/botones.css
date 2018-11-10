@@ -13,7 +13,7 @@
 	background: var(--obscuro);
 }
 
-.cancelar, #btn-reportarUsuario{
+.cancelar{
 	background: var(--rojo);
 }
 
