@@ -25,15 +25,6 @@ form input{
 	border-bottom: 2px solid rgba(0,0,0,.1);
 }
 
-form a{
-	width: 100%;
-	text-align: center;
-	display: block; 
-	color: var(--link);
-	text-decoration: none;
-	margin-top: 1em;
-}
-
 form{
 	margin-bottom: 4em;
 }

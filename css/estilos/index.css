@@ -8,51 +8,55 @@ section{
 	align-items: center;
 }
 
-#block-top{
+.block-top{
 	width: 100%;
 	position: fixed;
 	left: 0;
 	top: 0;
-	min-height: 2em;
+	height: 4em;
 	background: var(--azulPrincipal);
 }
-#app{
+.app{
 	padding-top: 32%;
-	padding-bottom: 5%; 
 	color: var(--gris);
-	padding-bottom: 20%;
+	box-sizing: border-box;
 }
 
-#app h1{
-	font-size: 3em;
-	margin-bottom: 5%;
+.app h1{
+	font-size: 3.7em;
+	margin-bottom: 15px;
 	font-family: 'Comfortaa', sans-serif; 
+
 }
 
-#app h3{
+.app h3{
 	font-weight: lighter;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	margin-top: 0;
 	text-align: center;
-	margin: 1em 0;
+	margin: .5em 0;
 }
+
+.app p{
+	margin-top: 0;
+	
+}
+
 #span1{
 	color: var(--azulCielo);
 }
 
 #span2{
 	font-size: .7em;
+	font-family: 'Comfortaa', sans-serif; 
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid rgba(0,0,0,.1);
+	box-sizing: border-box;
 }
 
 #span3{
 	color: var(--azulMarino2);
 }
 
-#btn-login{
-	background: var(--azulMarino2);
-}
-
-#btn-register{
-	background: var(--azulMarino);
-}
 

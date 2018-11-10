@@ -103,6 +103,15 @@ h1{
 	text-align: center;
 }
 
+a{
+	width: 100%;
+	text-align: center;
+	display: block; 
+	color: var(--link);
+	text-decoration: none;
+	margin-top: 1em;
+}
+
 #nav-login-registro img{
 	width: 13.5%;
 	margin: 1.5%;
