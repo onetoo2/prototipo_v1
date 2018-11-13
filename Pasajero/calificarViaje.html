@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/calificarViaje.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
@@ -39,6 +40,13 @@
 
 		<div class="calificacion">
 			<h2>Calificación</h2>
+			<div class="estrellas">
+				<i class="fas fa-star" id="estrella1" onclick="calificarViaje('1')"></i>
+				<i class="fas fa-star" id="estrella2" onclick="calificarViaje('2')"></i>
+				<i class="fas fa-star" id="estrella3" onclick="calificarViaje('3')"></i>
+				<i class="fas fa-star" id="estrella4" onclick="calificarViaje('4')"></i>
+				<i class="fas fa-star" id="estrella5" onclick="calificarViaje('5')"></i>
+			</div>
 		</div>
 
 		<div class="retroalimentacion">
@@ -50,7 +58,7 @@
 
 		</div>
 
-		<button>Enviar calificación</button>
+		<button onclick="prueba('hola')">Enviar calificación</button>
 
 	</section>
 	

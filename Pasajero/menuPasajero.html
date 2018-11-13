@@ -4,47 +4,60 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>UAQ-ANDA - Menú principal</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/confirmarAsistencia.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
 
-	<style type="text/css">
-		*{
-			font-family: 'Questrial', 'Segoe UI',sans-serif;
-		}
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
 
-		h2{
-			float: left;
-			margin: 0;
-			width: 100%;
-		}
-		.enlaces{
-			width: 100%;
-		}
-		a{
-			padding: 2%;
-			float: left;
-			border: 1px solid blue;
-			margin: 2%;
-		}
-	</style>
-	
-	<h2>Inicio</h2>
-	<div class="enlaces">
-	<a href="../index.html">Index</a>
-	<a href="../login.html">Login</a>
-	<a href="../registro.html">Registro</a>
-	</div>
+	<div class="contenedor">
 
-	<h2>Pasajero</h2>
-	<div class="enlaces">
-		<a href="calificarViaje.html">calificarViaje</a>
-		<a href="cancelarViaje.html">cancelar Viaje</a>
-		<a href="confirmarAsistencia.html">confirmar Asistencia</a>
-		<a href="consultarHorarios.html">consultar Horarios</a>
-		<a href="editarPerfil.html">editar Perfil</a>
-		<a href="horariosDisponibles.html">horarios Disponibles</a>
-	</div>
+		<header>
+			<h1>Menú principal</h1>
+			<p>Selecciona una opción:</p>
+		</header>
+
+		<div class="opciones">
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('consultarHorarios.html')">
+					<img src="../img/reloj2.png">
+				</div>
+				<label>Consultar horarios</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('confirmarAsistencia.html')">
+					<img src="../img/pin.png">
+				</div>
+				<label>Confirmar Asistencia</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('calificarViaje.html')">
+					<img src="../img/star.png">
+				</div>
+				<label>Calificar viaje</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('cancelarViaje.html')">
+					<img src="../img/cruz.png">
+				</div>
+				<label>Cancelar viaje</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('historialViajes.html')">
+					<img src="../img/historial2.png">
+				</div>
+				<label>Historial viajes</label>
+			</div>
+		</div>
+	</div>	
 
 </body>
 </html>

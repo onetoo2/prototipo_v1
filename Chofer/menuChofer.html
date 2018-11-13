@@ -4,48 +4,78 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>UAQ-ANDA - Menú principal</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/confirmarAsistencia.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
 
-	<style type="text/css">
-		*{
-			font-family: 'Questrial', 'Segoe UI',sans-serif;
-		}
+	<nav class="contenido-nav">
+		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+	</nav>
 
-		h2{
-			float: left;
-			margin: 0;
-			width: 100%;
-		}
-		.enlaces{
-			width: 100%;
-		}
-		a{
-			padding: 2%;
-			float: left;
-			border: 1px solid blue;
-			margin: 2%;
-		}
-	</style>
-	
-	<h2>Inicio</h2>
-	<div class="enlaces">
-		<a href="../index.html">Index</a>
-		<a href="../login.html">Login</a>
-		<a href="../registro.html">Registro</a>
-	</div>
+	<div class="contenedor">
 
-	<h2>Chofer</h2>
-	<div class="enlaces">
-		<a href="checkIn.html">check In</a>
-		<a href="finalizarViaje.html">finalizar Viaje</a>
-		<a href="horaLlegada.html">hora Llegada</a>
-		<a href="horaSalida.html">hora Salida</a>
-		<a href="notificarIncidente.html">notificar Incidente</a>
-		<a href="reportarUsuario.html">reportar Usuario</a>
-		<a href="solicitarUnidad.html">solicitar Unidad</a>
-	</div>
+		<header>
+			<h1>Menú principal</h1>
+			<p>Selecciona una opción:</p>
+		</header>
+
+		<div class="opciones">
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/reloj2.png">
+				</div>
+				<label>Hora Llegada</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/pin.png">
+				</div>
+				<label>Check - <br>In</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/salida.png">
+				</div>
+				<label>Hora <br>Salida</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/cruz.png">
+				</div>
+				<label>Finalizar viaje</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/historial2.png">
+				</div>
+				<label>Historial viajes</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/notificar.png">
+				</div>
+				<label>Notificar Incidente</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/bus.png">
+				</div>
+				<label>Solicitar Unidad</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo">
+					<img src="../img/reportar.png">
+				</div>
+				<label>Reportar Usuario</label>
+			</div>
+		</div>
+	</div>	
 
 </body>
 </html>

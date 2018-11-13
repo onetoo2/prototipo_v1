@@ -1,0 +1,54 @@
+body{
+	color: var(--gris2);
+	font-size: .9em;
+}
+.viajes{
+	width: 80%;
+	margin-left: 10%;
+	/*color: #4F79D2;*/
+	float: left;
+	margin-bottom: 3em;
+}
+
+.viaje{
+	float: left;
+	border-radius: 5px;
+	padding-bottom: .5em;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	margin-bottom: 1em;
+}
+
+.datos{
+	float: left;
+	width: 90%;
+}
+
+.dato{
+	width: 100%;
+	float: left;
+	max-height: 25px;
+	font-size: 1.1em;
+}
+.dato label{
+	float: left;
+}
+.dato p{
+	margin-top: 0;
+	float: left;
+	margin-left:1em;
+	margin-bottom: 5px;
+}
+
+label{	
+	color: var(--labelAzul);
+}
+
+i{
+	font-size: 1.9em;
+	cursor: pointer;
+}
+
+i:hover{
+	color: var(--azul);
+	transition: .2s all;
+}

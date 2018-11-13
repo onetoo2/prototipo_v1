@@ -1,0 +1,46 @@
+header{
+	margin-top: 8em;
+	margin-bottom: 2em;
+}
+
+.opciones{
+	width: 100%;
+	margin-left: .5em;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.opcion{
+	width: calc(100% / 3 - 1em);
+	margin-right: 1em;
+	float: left;
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.opcion .circulo{
+	width: 6.5em;
+	height: 6.5em;
+	border-radius: 50%;
+	height: 6.5em;
+}
+
+.circulo{
+	cursor: pointer;
+}
+
+.circulo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+label{
+	width: 80%;
+	text-align: center;
+	padding-top: .5em;
+	color:var(--gris2);
+}
+

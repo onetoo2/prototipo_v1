@@ -37,6 +37,19 @@ div{
 	margin-bottom: 1.7em;
 }
 
+.estrellas{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.estrellas i{
+	margin: .2em;
+	font-size: 2em;
+	color: #97BBC3;
+	cursor: pointer;
+}
+
 .retroalimentacion{
 	margin-top: 1.5em;
 	margin-bottom: 0;
