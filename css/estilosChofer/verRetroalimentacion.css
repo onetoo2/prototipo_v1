@@ -23,6 +23,7 @@ section{
 	font-size: 1.3em;
 	color: var(--estrella);
 	cursor: pointer;
+	outline: none;
 }
 
 .estrellas i:hover{
@@ -62,4 +63,5 @@ textarea{
 
 section i{
 	float: right;
+	outline: none;
 }

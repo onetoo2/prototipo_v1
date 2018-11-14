@@ -78,6 +78,7 @@ label{
 	cursor: pointer;
 	margin-top: -.2em;
 	margin-bottom: 0;
+	outline: none;
 }
 i:hover{
 	color: var(--azul);
@@ -123,6 +124,7 @@ i:hover{
 	height: 2.7em;
 	background: var(--azulMarino);
 	font-size: .85em;
+	outline: none;
 }
 
 .esconderHorario{

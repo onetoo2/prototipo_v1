@@ -48,6 +48,7 @@ div{
 	font-size: 2em;
 	color: #97BBC3;
 	cursor: pointer;
+	outline: none;
 }
 
 .retroalimentacion{
@@ -76,4 +77,5 @@ div{
 button{
 	margin-top: 1em;
 	background: var(--obscuro);
+	outline: none;
 }

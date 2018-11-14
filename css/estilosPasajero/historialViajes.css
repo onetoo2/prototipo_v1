@@ -46,6 +46,7 @@ label{
 i{
 	font-size: 1.9em;
 	cursor: pointer;
+	outline: none;
 }
 
 i:hover{

@@ -26,9 +26,11 @@
 	box-sizing: border-box;
 	padding: 5px;
 	color: var(--gris2);
+	outline: none;
 }
 
 button{
 	margin-top: 0;
 	margin-bottom: 6em;
+	outline: none;
 }
