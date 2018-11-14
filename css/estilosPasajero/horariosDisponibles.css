@@ -33,23 +33,105 @@ label{
 	margin-bottom: 4em;
 }
 
+.horario{
+	background: blue;
+}
+
 .horario label{
 	background: var(--azulClaro);
 	width: 100%;
-	display: block;
 	box-sizing: border-box;
 	padding: 5px;
 	padding-left: 10px;
 	color: #fff;
 	border-radius: 5px;
 	font-size: 1.1em;
+	float: left;
 }
 
 .horario ul{
 	padding: 0;
-	margin-left: 2em;
+	width: 100%;
+	padding-left: 2em;
 	font-size: 1.1em;
+	float: left;
+	margin-bottom: .5em;
+	box-sizing: border-box;
 }
+
 .horario ul>li{
 	margin-left: 0;
+	margin-bottom: .5em;
+	float: left;
+	width: 100%;
+}
+
+.horario li>p{
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.horario li>i{
+	float: right;
+	font-size:1.7em;
+	cursor: pointer;
+	margin-top: -.2em;
+	margin-bottom: 0;
+}
+i:hover{
+	color: var(--azul);
+	transition: .2s all;
+}
+.reservar{
+	float: left;
+	background: var(--claro);
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.1);
+	box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin-bottom: 1em;
+}
+
+.datosReservar{
+	margin-bottom: .5em;
+}
+
+.datosReservar label, .datosReservar p{
+	padding: 0;
+	width: auto;
+	font-size: .96em;
+	background: none;
+}
+
+.datosReservar label{
+	color: var(--azul);
+}
+.datosReservar p{
+	color: var(--gris);
+	float: left;
+	margin: 0;
+	margin-left: .5em;
+}
+
+.reservar button{
+	margin: 0;
+	height: 2.7em;
+	background: var(--azulMarino);
+	font-size: .85em;
+}
+
+.esconderHorario{
+	display: none;
+}
+.mostrarHorario{
+	display: all;
+}
+
+.reservar button:hover{
+	background: var(--verde);
 }

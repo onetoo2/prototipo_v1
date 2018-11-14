@@ -1,5 +1,9 @@
 *{
 	font-family: 'Questrial', 'Segoe UI',sans-serif;
+	outline: none;
+}
+button, input, a{
+	outline: none;
 }
 
 section{
@@ -8,14 +12,6 @@ section{
 	align-items: center;
 }
 
-.block-top{
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 4em;
-	background: var(--azulPrincipal);
-}
 .app{
 	padding-top: 32%;
 	color: var(--gris);
@@ -50,8 +46,8 @@ section{
 	font-size: .7em;
 	font-family: 'Comfortaa', sans-serif; 
 	padding: 5px;
-	border-radius: 5px;
-	border: 2px solid rgba(0,0,0,.1);
+	/*border-radius: 5px;
+	border: 2px solid rgba(0,0,0,.1);*/
 	box-sizing: border-box;
 }
 

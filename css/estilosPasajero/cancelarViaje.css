@@ -1,18 +1,26 @@
-
-.contenido{
-	width: 70%;
-	margin-left: 15%;
-	margin-bottom: 2.5em;
-}
-.dato{
-	box-sizing: border-box;
-	margin-bottom: 2em;
+section{
+	color: var(--gris2);
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 4em;
 }
 
-.dato h3{
+section label{
+	margin-bottom: .3em;
+	color: var(--label);
+	margin-bottom: 0;
+}
+section p{
+	margin-top: .2em;
+}
+
+section label, p{
+	font-size: 1.1em;
+}
+section h2{
 	padding: .3em;
 	box-sizing: border-box;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: center;
 	letter-spacing: .2px;
 	border: none;
@@ -23,22 +31,13 @@
 	color: var(--blanco);
 	/*color: var(--gris);*/
 }
-.dato p{
-	color: var(--gris2);
-	font-size: 1.1em;
-}
-.dato label{
-	display: block;
-	margin-right: 5px;
-	color: var(--label);
-	font-size: 1.1em;
+
+
+section .datosViaje{
+	margin-bottom: 0;
 }
 
-.btns{
-	width: 80%;
-	margin-left: 10%;
-}
-.btns>button{
-	width: 50%;
-	margin-left: 25%;
+section button{
+	margin-top: 0;
+	margin-bottom: 1em;
 }

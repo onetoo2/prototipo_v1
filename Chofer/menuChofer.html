@@ -7,6 +7,7 @@
 	<title>UAQ-ANDA - Menú principal</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/menuDesplegable.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/menu.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/confirmarAsistencia.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
@@ -14,8 +15,13 @@
 </head>
 <body>
 
+	<div class="menuDesplegable esconder">
+		<a href="#">Menú principal</a>
+		<a href="../index.html">Cerrar sesión</a>
+	</div>
+
 	<nav class="contenido-nav">
-		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+		<img src="../img/menu.png" onclick="mostrarMenu()">
 	</nav>
 
 	<div class="contenedor">
@@ -27,52 +33,70 @@
 
 		<div class="opciones">
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('horaLlegada.html')">
 					<img src="../img/reloj2.png">
 				</div>
 				<label>Hora Llegada</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('checkIn.html')">
 					<img src="../img/pin.png">
 				</div>
-				<label>Check - <br>In</label>
+				<label><br>Check - In</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('horaSalida.html')">
 					<img src="../img/salida.png">
 				</div>
 				<label>Hora <br>Salida</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('finalizarViaje.html')">
 					<img src="../img/cruz.png">
 				</div>
 				<label>Finalizar viaje</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('finalizarViaje.html')">
+					<img src="../img/detalles.png">
+				</div>
+				<label>Información viaje</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('historialViajes.html')">
 					<img src="../img/historial2.png">
 				</div>
 				<label>Historial viajes</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('notificarIncidente.html')">
 					<img src="../img/notificar.png">
 				</div>
 				<label>Notificar Incidente</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('solicitarUnidad.html')">
 					<img src="../img/bus.png">
 				</div>
 				<label>Solicitar Unidad</label>
 			</div>
 			<div class="opcion">
-				<div class="circulo">
+				<div class="circulo" onclick="navegar('reportarUsuario.html')">
 					<img src="../img/reportar.png">
 				</div>
 				<label>Reportar Usuario</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('verRetroalimentacion.html')">
+					<img src="../img/retroalimentacion.png">
+				</div>
+
+				<label>Feedback</label>
+			</div>
+			<div class="opcion">
+				<div class="circulo" onclick="navegar('../menu.html')">
+					<img src="../img/home.png">
+				</div>
 			</div>
 		</div>
 	</div>	

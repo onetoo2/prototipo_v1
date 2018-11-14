@@ -6,15 +6,23 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UAQ-ANDA - Cancelar viaje</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
-	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/calificarViaje.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/cancelarViaje.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/menuDesplegable.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
 	<script src=../js/funcionesEstilos.js></script>  
 </head>
 <body>
+
+	<div class="menuDesplegable esconder">
+		<a href="menuPasajero.html">Menú principal</a>
+		<label>Cuenta</label>
+		<a href="editarPerfil.html">Editar Perfil</a>
+		<a href="../index.html">Cerrar sesión</a>
+	</div>
 	
 	<nav class="contenido-nav">
-		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+		<img src="../img/menu.png" onclick="mostrarMenu()">
 	</nav>
 
 	<header>
@@ -23,19 +31,15 @@
 	</header>
 
 	<section>
-		<div>
-			<h2>Unidad</h2>
+		<div class="datosViaje">
 
-			<label>Punto partida:</label>
-			<p>CU</p>
+			<h2>Datos del viaje</h2>
+
+			<label>Usuario:</label>
+			<p>José Domínguez</p>
 
 			<label>Punto llegada:</label>
 			<p>Campus Juriquilla</p>
-
-		</div>
-
-		<div>
-			<h2>Horario</h2>
 
 			<label>Horario viaje:</label>
 			<p>08:30</p>
@@ -44,22 +48,11 @@
 			<p>19-07-18</p>
 
 		</div>
-	</section>
 
-	<div class="btns">
 		<button class="cancelar">Cancelar viaje</button>	
 		<button class="aceptar">Regresar</button>
-	</div>	
 
-	<style type="text/css">
-		section{
-			margin-bottom: 0;
-		}
-
-		.btns{
-			margin-bottom: 4em;
-		}
-	</style>
+	</section>
 
 </body>
 </html>

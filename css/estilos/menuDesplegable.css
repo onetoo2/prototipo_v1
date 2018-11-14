@@ -1,0 +1,35 @@
+.menuDesplegable{
+	position: fixed;
+	left: 0;
+	top: 4.5em;
+	width: 45%;
+	height: 100%;
+	background: blue;
+	background: #F9F9F9;
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.menuDesplegable a, .menuDesplegable label{
+	margin-top: 0;
+	box-sizing: border-box;
+	padding: 8px;
+	border-bottom: 1px solid rgba(0,0,0,.08);
+	background: var(--claro);
+}
+
+.menuDesplegable label{
+	width: 100%;
+	display: block;
+	background: var(--obscuro);
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+}
+
+.mostrar{
+	display: all;
+}
+
+.esconder{
+	display: none;
+}

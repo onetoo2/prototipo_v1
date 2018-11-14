@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UAQ-ANDA - Horarios Disponibles</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/menuDesplegable.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/horariosDisponibles.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -13,8 +14,15 @@
 </head>
 <body>
 
+	<div class="menuDesplegable esconder">
+		<a href="menuPasajero.html">Menú principal</a>
+		<label>Cuenta</label>
+		<a href="editarPerfil.html">Editar Perfil</a>
+		<a href="../index.html">Cerrar sesión</a>
+	</div>
+
 	<nav class="contenido-nav">
-		<img src="../img/menu.png" onclick="navegar('menuPasajero.html')">
+		<img src="../img/menu.png" onclick="mostrarMenu()">
 	</nav>
 
 	<header>
@@ -49,40 +57,83 @@
 			<ul>
 				<li>
 					<p>CU - Campus Juriquilla 1</p>
-					<i><i class="fas fa-caret-down"></i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(1)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar1">
+					<div class="datosReservar">
+						<label>Lugares disponibles: </label>
+						<p> 3</p>
+					</div>
+					<button>Reservar lugar</button>
+				</div>
 				<li>
 					<p>CU - Campus Juriquilla 2</p>
-					<i><i class="fas fa-caret-down"></i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(2)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar2">
+					<div class="datosReservar">
+						<label>No hay lugares disponibles</label>
+						<p></p>
+					</div>
+					<button>Ingresar a fila de espera</button>
+				</div>
 			</ul>
+			
 		</div>
 
 		<div id="horario" class="horario">
 			<label id="hora"><span>7:30</span> a.m</label>
-			<ul>
+				<ul>
 				<li>
 					<p>CU - Campus Juriquilla 1</p>
-					<i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(3)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar3">
+					<div class="datosReservar">
+						<label>Lugares disponibles: </label>
+						<p> 3</p>
+					</div>
+					<button>Reservar lugar</button>
+				</div>
 				<li>
 					<p>CU - Campus Juriquilla 2</p>
-					<i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(4)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar4">
+					<div class="datosReservar">
+						<label>No hay lugares disponibles</label>
+						<p></p>
+					</div>
+					<button>Ingresar a fila de espera</button>
+				</div>
 			</ul>
 		</div>
 		
 		<div id="horario" class="horario">
 			<label id="hora"><span>8:30</span> a.m</label>
-			<ul>
+				<ul>
 				<li>
 					<p>CU - Campus Juriquilla 1</p>
-					<i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(5)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar5">
+					<div class="datosReservar">
+						<label>Lugares disponibles: </label>
+						<p> 3</p>
+					</div>
+					<button>Reservar lugar</button>
+				</div>
 				<li>
 					<p>CU - Campus Juriquilla 2</p>
-					<i></i>
+					<i class="fas fa-caret-down" onclick="mostrarHorario(6)"></i>
 				</li>
+				<div class="reservar esconderHorario" id="reservar6">
+					<div class="datosReservar">
+						<label>No hay lugares disponibles</label>
+						<p></p>
+					</div>
+					<button>Ingresar a fila de espera</button>
+				</div>
 			</ul>
 		</div>
 		

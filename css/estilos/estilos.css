@@ -1,6 +1,11 @@
 *{
 	font-family: 'Questrial', 'Segoe UI', sans-serif;
+	outline: none;
 }
+button, input, a{
+	outline: none;
+}
+
 :root{
 	/*--fuente: 'Questrial', sans-serif;*/
 	--azulMarino: #385f75;
@@ -24,6 +29,7 @@
 	--azulClaro: #7092DB;
 	--claro: #FCFCFC;
 	--obscuro: #2E2E2D;
+	--estrella:#E69E22;
 }
 
 

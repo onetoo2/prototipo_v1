@@ -1,0 +1,65 @@
+header h1{
+	font-size: 2em;
+}
+section{
+	margin-left:0;
+ }
+.viaje{
+	font-size: 1em;
+	width: 100%;
+}
+
+.datoCal label{
+	margin-top: .5em;
+}
+
+.estrellas{
+	margin-left: 0em;
+	float: left;
+}
+
+.estrellas i{
+	margin: .2em;
+	font-size: 1.3em;
+	color: var(--estrella);
+	cursor: pointer;
+}
+
+.estrellas i:hover{
+	color: var(--estrella);
+	cursor: default;
+}
+
+textarea{
+	width: 100%;
+	margin-top: .5em;
+	height: 100px;
+	max-height: 100px;
+	resize: none;
+	background: var(--claro);
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 5px;
+	padding: 5px;
+	font-family: 'Questrial', sans-serif; 
+	color: var(--gris2);
+	font-size: 1em;
+	box-sizing: border-box;
+	
+}
+
+.datoCalif{
+	margin-bottom: 3em;
+}
+
+.datoCalif label{
+	display: block;
+	margin-bottom: .2em;
+}
+
+.datoCalif>.estrellas{
+	margin-left: 0;
+}
+
+section i{
+	float: right;
+}
