@@ -14,7 +14,7 @@ section p{
 	margin-top: .2em;
 }
 
-section label, p{
+section label, section p{
 	font-size: 1.1em;
 }
 section h2{
@@ -34,7 +34,7 @@ section h2{
 
 
 section .datosViaje{
-	margin-bottom: 0;
+	margin-bottom: 2em;
 }
 
 section button{

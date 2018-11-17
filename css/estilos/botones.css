@@ -25,3 +25,6 @@
 button, input[type=submit]{
 	outline: none;
 }
+a:focus, button:focus, input:focus, textarea:focus, i:focus{
+	outline: none;
+}

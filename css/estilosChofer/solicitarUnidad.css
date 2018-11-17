@@ -1,9 +1,14 @@
-.contenedor textarea{
-	margin-top: 0;
-	margin-bottom: 1em;
-}
-.contenedor input[type=submit], .contenedor button{
-	margin-left: 0;
-	margin-bottom: 1em;
+.contenedor select, input{
+	width: 80%;
+	margin-bottom: 2.5em;
+	border-radius: 5px;
+	height: 2.5em;
+	border: 1px solid rgba(0,0,0,.2);
+	font-size: 1em;
+	background: var(--claro);
+	font-family: var(--fuente);
+	box-sizing: border-box;
+	padding: 5px;
+	color: var(--gris2);
 	outline: none;
 }

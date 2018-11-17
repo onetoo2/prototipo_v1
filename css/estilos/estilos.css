@@ -6,13 +6,18 @@ button, input, a{
 	outline: none;
 }
 
+a:focus, button:focus, input:focus, textarea:focus, i:focus{
+	outline: none;
+}
+
 :root{
 	/*--fuente: 'Questrial', sans-serif;*/
 	--azulMarino: #385f75;
 	--azulMarino2: #2d79a4;
 	--azul:  #2D79A4;
 	--azul2: #305CBA;
-	--verde: #26A86A;
+	/*--verde: #26A86A;*/
+	--verde: #44C186;
 	--rojo: #F84949;
 	--azulObscuro: #00262C;
 	/*--azulPrincipal: #596DFF;*/
@@ -32,24 +37,83 @@ button, input, a{
 	--estrella:#E69E22;
 }
 
+.bloque-top{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2.5em;
+	text-align: center;
+	margin: 0;
+	background: var(--azulPrincipal);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bloque-top p{
+	margin: 0;
+	color: #fff;
+}
 
 nav{
 	width: 100%;
 	position: fixed;
 	left: 0;
-	top: 0;
+	bottom: 0;
 	height: 4.5em;
 	background: var(--azulPrincipal);
 }
 
-header, form{
+nav>.iconos{
+	box-sizing: border-box;
+	height: 4.5em;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+
+.iconos>.icono{
+	width: 50%;
+	box-sizing: border-box;
+	height: 100%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.icono>i{
+	color: #fff;
+	font-size: 2em;
+}
+
+.icono label{
+	color: #fff;
+	font-size: .9em;
+	padding-top: .5em;
+}
+
+.contenedor{
+	float: left;
+	margin-bottom: 4em;
+	width: 100%;
+}
+
+header, .form, section, .btns{
 	width: 80%;
 	margin-left:10%;
 }
 
+.form, .contenido{
+	margin-bottom: 25%;
+}
+
 header{
-	margin-top: 6.7em;
-	margin-bottom: 1.5em;
+	margin-top: 5em;
+	margin-bottom: 2em;
 }
 
 header h1{
@@ -98,8 +162,9 @@ a{
 
 
 .contenido-nav img{
-	width:2.5rem;
+	width:2.3rem;
 	margin: 1em;
+	margin-left: .5em;
 	height: auto;
 	max-width: 14%;
 	float: left;
@@ -114,4 +179,12 @@ a{
 
 input, textarea, button, input[type=submit], {
 	outline: none;
+}
+
+.esconder{
+	display: none;
+}
+
+.mostrar{
+	display: all;
 }

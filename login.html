@@ -2,38 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UAQ-ANDA - Login</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos/botones.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos/form.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos/login.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<script src="js/funcionesEstilos.js"></script>
 </head>
 <body>
 
+	<!--
+	<div class="bloque-top">
+		<p>UAQ-ANDA</p>
+	</div>
+
 	<nav class="contenido-nav">
-		<img src="img/home.png" onclick="navegar('index.html')">
+		<div class="iconos">
+			<div class="icono" onclick="navegar('index.html')">
+				<i class="fas fa-home" id="home"></i>
+				<label>Inicio</label>
+			</div>
+		</div>
 	</nav>
+-->
 
-	<header>
-		<h1>Inicio de Sesión</h1>
-		<p>Llena los campos correspondientes para iniciar sesión:</p>
-	</header>
+	<div class="contenedor">
+		<header>
+			<h1>Inicio de Sesión</h1>
+			<p>Llena los campos correspondientes para iniciar sesión:</p>
+		</header>
 
-	<form id="login" class="login">
+		<div id="login" class="form login">
 
-		<label>Usuario:</label>
-		<input type="text" name="" placeholder="Nombre de Usuario">
+			<label>Usuario:</label>
+			<input type="text" name="" placeholder="Nombre de Usuario">
 
-		<label>Contraseña:</label>
-		<input type="password" name="" placeholder="Contraseña">
+			<label>Contraseña:</label>
+			<input type="password" name="" placeholder="Contraseña">
 
-		<button class="azul">Iniciar sesión</button>
-		<a href="registro.html">¿Todavía no tienes una cuenta?</a>
+			<button class="azul">Iniciar sesión</button>
+			<a href="registro.html">¿Todavía no tienes una cuenta?</a>
 
-	</form>
+		</div>
+	</div>
 
 </body>
 </html>

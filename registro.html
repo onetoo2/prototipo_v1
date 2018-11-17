@@ -2,53 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UAQ-ANDA - Registro</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos/form.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos/botones.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/estilos/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
 	<script src="js/funcionesEstilos.js"></script>
 </head>
 <body>
-	
-	<nav class="contenido-nav">
-		<img src="img/home.png" onclick="navegar('index.html')">
-	</nav>
 
-	<header>
-		<h1>Registro</h1>
-		<p>Llena los campos correspondientes para hacer el registro:</p>
-	</header>
-	
-	<form id="registro" class="registro">
-
-		<label>Expediente:</label>
-		<input type="text" name="" placeholder="No. expediente">
+	<div class="contenedor">
+		<header>
+			<h1>Registro</h1>
+			<p>Llena los campos correspondientes para hacer el registro:</p>
+		</header>
 		
-		<label>Nombre:</label>
-		<input type="text" name="" placeholder="Nombre">
+		<div id="registro" class="form registro">
 
-		<label>Apellido:</label>
-		<input type="text" name="" placeholder="Apellido">
+			<label>Expediente:</label>
+			<input type="text" name="" placeholder="No. expediente">
+			
+			<label>Nombre:</label>
+			<input type="text" name="" placeholder="Nombre">
 
-		<label>Correo:</label>
-		<input type="email" name="" placeholder="e-mail">
+			<label>Apellido:</label>
+			<input type="text" name="" placeholder="Apellido">
 
-		<label>Contraseña:</label>
-		<input type="password" name="" placeholder="Contraseña">
+			<label>Correo:</label>
+			<input type="email" name="" placeholder="e-mail">
 
-		<label>Confirmar contraseña:</label>
-		<input type="password" name="" placeholder="Ingresar contraseña de nuevo">
+			<label>Contraseña:</label>
+			<input type="password" name="" placeholder="Contraseña">
 
-		<label>Teléfono:</label>
-		<input type="text" name="" placeholder="No. teléfono">
+			<label>Confirmar contraseña:</label>
+			<input type="password" name="" placeholder="Ingresar contraseña de nuevo">
 
-		<button class="aceptar">Registrarse</button>
-		<a href="login.html">Iniciar Sesión</a>
+			<label>Teléfono:</label>
+			<input type="text" name="" placeholder="No. teléfono">
 
-	</form>
+			<button class="aceptar">Registrarse</button>
+			<a href="login.html">Iniciar Sesión</a>
+
+		</div>
+	</div>
 
 </body>
 </html>

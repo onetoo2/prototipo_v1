@@ -2,14 +2,14 @@ input, textarea{
 	outline: none;
 }
 
-form label{
+.form label{
 	display: block;
 	margin-bottom: .3em;
 	color: var(--label);
 	font-size: 1.1em;
 }
 
-form input{
+.form input, .form select{
 	height: 1.8em;
 	border-radius: 5px;
 	width: 100%;
@@ -25,11 +25,17 @@ form input{
 	border-bottom: 2px solid rgba(0,0,0,.1);
 }
 
-form{
+.form select{
+	border: 1px solid rgba(0,0,0,.2);
+	outline: none;
+	height: 2.5em;
+}
+
+.form{
 	margin-bottom: 4em;
 }
 
-form textarea{
+.form textarea{
 	width: 100%;
 	margin-top: 1em;
 	height: 100px;
@@ -43,4 +49,8 @@ form textarea{
 	color: var(--gris2);
 	font-size: 1em;
 	box-sizing: border-box;
+}
+
+a:focus, button:focus, input:focus, textarea:focus, i:focus{
+	outline: none;
 }

@@ -1,0 +1,80 @@
+.modalNotificacion{
+	position: fixed;
+	right: 0;
+	top: 6em;
+	height: auto;
+	box-sizing: border-box;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: var(--verde);
+	color: #fff;
+	width: 60%;
+	opacity: 0;
+}
+
+.modalNotificacion p{
+	margin: 1em .5em;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.modalAlerta{
+	position: fixed;
+	top: 40%;
+	width: 80%;
+	left: 10%;
+	background: #fff;
+	border-radius: 5px;
+	z-index: 9999;
+}
+
+.modalAlerta p{
+	text-align: center;
+	margin-top: 1em;
+	line-height: 1.2em;
+	font-size: 1.1em;
+	padding: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-sizing: border-box;
+	color: var(--azul);
+}
+
+.modalAlerta .btns{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding-left: calc(5% - .5em);
+	padding-right: calc(5% - .5em);
+	box-sizing: border-box;
+	margin-bottom: 1em;
+}
+
+.modalAlerta .btns button{
+	width: 40%;
+	margin: 0;
+	margin-left: 1em;
+}
+
+.popUp{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 9998;
+	left: 0;
+	background: rgba(0,0,0,.5);
+}
+
+.visible{
+	opacity: 1;	
+	right: 0;
+	transition: .6s all;
+}
+
+.invisible{
+	opacity: 0;
+	right: -60%;
+	transition: .6s all;
+
+}

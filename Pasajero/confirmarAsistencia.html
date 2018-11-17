@@ -2,31 +2,48 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>UAQ-ANDA - Confirmar Asistencia</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/botones.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos/modal.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos/menuDesplegable.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilosPasajero/confirmarAsistencia.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Questrial" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<script src=../js/funcionesEstilos.js></script> 
 </head>
 <body>
 
 	<div class="menuDesplegable esconder">
-		<a href="menuPasajero.html">Menú principal</a>
-		<label>Cuenta</label>
 		<a href="editarPerfil.html">Editar Perfil</a>
 		<a href="../index.html">Cerrar sesión</a>
 	</div>
 
+	<!-- Modal notificación -->
+	<div class="modalNotificacion invisible" id="modal">
+		<p>! Confirmación exitosa !</p>
+	</div>
+
+	<div class="bloque-top">
+		<p>UAQ-ANDA</p>
+	</div>
+
 	<nav class="contenido-nav">
-		<img src="../img/menu.png" onclick="mostrarMenu()">
+		<div class="iconos">
+			<div class="icono" onclick="navegar('menuPasajero.html')">
+				<i class="fas fa-home" id="home"></i>
+				<label>Menú principal</label>
+			</div>
+			<div class="icono" onclick="mostrarMenu()">
+				<i class="fas fa-user" id="user"></i>
+				<label>Cuenta</label>
+			</div>
+		</div>
 	</nav>
 
 	<div class="contenedor">
-
 		<header>
 			<h1>Confirmar Asistencia</h1>
 			<p>Da click en el botón para confirmar tu asistencia</p>
@@ -36,7 +53,9 @@
 			<img src="../img/asistencia.png">
 		</div>
 
-		<button class="obscuro">¡Aquí estoy!</button>
+		<div class="btns">
+			<button class="aceptar"  onclick="mostrarModalNotificacion('modalNotificacion')">¡Aquí estoy!</button>
+		</div>
 	</div>	
 
 </body>

@@ -1,6 +1,6 @@
-.contenedor{
-	width: 70%;
-	margin-left: 15%;
+.contenedorHorarios{
+	width: 80%;
+	margin-left: 10%;
 	/*color: #4F79D2;*/
 	color: var(--gris2);
 	display: flex;
@@ -8,15 +8,15 @@
 	align-items: center;
 }
 
-.contenedor label{
+.contenedorHorarios label{
 	display: block;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 	font-size: 1.2em;
 }
 
-.contenedor select, input{
+.contenedorHorarios select, .contenedorHorarios input{
 	width: 80%;
-	margin-bottom: 2.5em;
+	margin-bottom: 1.5em;
 	border-radius: 5px;
 	height: 2.5em;
 	border: 1px solid rgba(0,0,0,.2);
@@ -29,8 +29,25 @@
 	outline: none;
 }
 
+.form input{
+	height: 1.8em;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: var(--fuente);
+	color: var(--gris2);
+	border: none;
+	margin-top: .5em;
+	margin-bottom: 1.5em;
+	background: none;
+	font-size: 1em;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+
+}
+
 button{
 	margin-top: 0;
-	margin-bottom: 6em;
+	margin-bottom: 4em;
 	outline: none;
 }

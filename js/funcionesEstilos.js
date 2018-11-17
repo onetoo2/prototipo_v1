@@ -1,5 +1,5 @@
 function navegar(liga){
-	location.assign(liga)
+	location.assign(liga);
 }
 
 function navegarReplace(liga){
@@ -20,49 +20,91 @@ function calificarViaje(numEstrellas){
 	}
 }
 
-function mostrarMenu(){
-	menu = document.querySelector("div.menuDesplegable");
-	var bandera;
-	for (var i = 0; i <= menu.classList.length; i++) {
+function mostrar(elemento){
+	elemento.classList.remove('esconder');
+	elemento.classList.add('mostrar');
+}
 
-		if(menu.classList[i] == 'esconder'){
+function esconder(elemento){
+	elemento.classList.remove('mostrar');
+	elemento.classList.add('esconder');
+}
+
+function mostrarModal(idModal){
+	modal = document.getElementById(idModal)
+	mostrar(modal);
+}
+
+function esconderModal(idModal){
+	modal = document.getElementById(idModal)
+	esconder(modal);
+}
+
+function mostrarModalNotificacion(idModal){
+	var modal = document.querySelector('div.modalNotificacion');
+	var bandera;
+	for (var i = 0; i <= modal.classList.length; i++) {
+
+		if(modal.classList[i] == 'invisible'){
 			bandera = 1;
 		}
-		if(menu.classList[i] == 'mostrar'){
+		if(modal.classList[i] == 'visible'){
 			bandera = 0;
 		}
 	}
 	if(bandera == 1){
-			menu.classList.remove('esconder');
-		    menu.classList.add('mostrar');
+			modal.classList.remove('invisible');
+			modal.classList.add('visible');
+			setTimeout(mostrarModalNotificacion, 1500);
 		}
 	if(bandera == 0){
-			menu.classList.remove('mostrar');
-			menu.classList.add('esconder');
+			modal.classList.remove('visible');
+			modal.classList.add('invisible');
 		}
 }
+
+
+function mostrarPopUp(idPopUp, idModal){
+	popUp = document.getElementById(idPopUp)
+	mostrar(popUp);
+	mostrarModal(idModal);
+}
+
+function esconderPopUp(idPopUp, idModal){
+	popUp = document.getElementById(idPopUp)
+	esconder(popUp);
+	esconderModal(idModal);
+}
+
+function banderaMostrar(elemento){
+	var bandera;
+	for (var i = 0; i <= elemento.classList.length; i++) {
+
+		if(elemento.classList[i] == 'esconder'){
+			bandera = 1;
+		}
+		if(elemento.classList[i] == 'mostrar'){
+			bandera = 0;
+		}
+	}
+	if(bandera == 1){
+			mostrar(elemento);
+		}
+	if(bandera == 0){
+			esconder(elemento);
+		}
+}
+
+function mostrarMenu(){
+	menu = document.querySelector("div.menuDesplegable");
+	banderaMostrar(menu);
+}
+
 
 function mostrarHorario(id){
 	var id = 'reservar' + id;
 	horario = document.getElementById(id);
-	var bandera;
-	for (var i = 0; i <= horario.classList.length; i++) {
-
-		if(horario.classList[i] == 'esconderHorario'){
-			bandera = 1;
-		}
-		if(horario.classList[i] == 'mostrarHorario'){
-			bandera = 0;
-		}
-	}
-	if(bandera == 1){
-		horario.classList.remove('esconderHorario');
-		horario.classList.add('mostrarHorario');
-	}
-	if(bandera == 0){
-		horario.classList.remove('mostrarHorario');
-		horario.classList.add('esconderHorario');
-	}
+	banderaMostrar(horario);
 }
 
 

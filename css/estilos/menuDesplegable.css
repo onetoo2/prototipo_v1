@@ -1,37 +1,36 @@
 .menuDesplegable{
 	position: fixed;
-	left: 0;
-	top: 4.5em;
-	width: 45%;
-	height: 40%;
-	background: blue;
-	background: #F9F9F9;
-	border-right: 1px solid rgba(0,0,0,.1);
-	border-bottom-right-radius: 10px;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	right: 0;
+	bottom: 4.5em;
+	width: 100%;
+	border: none;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.menuDesplegable a, .menuDesplegable label{
+.menuDesplegable a{
 	margin-top: 0;
 	box-sizing: border-box;
-	padding: 8px;
-	border-bottom: 1px solid rgba(0,0,0,.08);
-	background: var(--claro);
-}
-
-.menuDesplegable label{
-	width: 100%;
-	display: block;
-	background: var(--obscuro);
+	padding: .8em;
+	height: 3.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	background: #F0F0F0;
+	background:  #225A7B;
 	color: #fff;
-	text-decoration: none;
-	text-align: left;
 }
 
-.mostrar{
-	display: all;
+.menuDesplegable> .mostrar{
+	opacity: 1;
+	bottom: 4.5em;
+	transition: .4s all;
 }
 
-.esconder{
-	display: none;
+.menuDesplegable> .esconder{
+	bottom: -4.5em;
+	opacity: 0;
+	transition: .4s all;
 }

@@ -30,11 +30,7 @@ label{
 
 .horarios{
 	margin-top: 1em;
-	margin-bottom: 4em;
-}
-
-.horario{
-	background: blue;
+	margin-bottom: 3em;
 }
 
 .horario label{
@@ -78,11 +74,8 @@ label{
 	cursor: pointer;
 	margin-top: -.2em;
 	margin-bottom: 0;
+	margin-right: .5em;
 	outline: none;
-}
-i:hover{
-	color: var(--azul);
-	transition: .2s all;
 }
 .reservar{
 	float: left;
@@ -94,7 +87,8 @@ i:hover{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 90%;
+	width: 100%;
+	margin-left: -5%;
 	margin-bottom: 1em;
 }
 
@@ -121,19 +115,14 @@ i:hover{
 
 .reservar button{
 	margin: 0;
-	height: 2.7em;
-	background: var(--azulMarino);
 	font-size: .85em;
 	outline: none;
 }
 
-.esconderHorario{
+.esconder{
 	display: none;
 }
-.mostrarHorario{
-	display: all;
-}
 
-.reservar button:hover{
-	background: var(--verde);
+.mostrar{
+	display: all;
 }
