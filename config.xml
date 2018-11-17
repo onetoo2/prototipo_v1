@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
@@ -39,7 +39,7 @@
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />-->
 
-    <icon src="img/logo2.png" />
+    <icon src="img/bus.png" />
         <access origin="*"/>
 
     <plugin name="cordova-plugin-whitelist" version="1" />
