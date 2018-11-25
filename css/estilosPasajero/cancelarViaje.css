@@ -6,12 +6,10 @@ section{
 }
 
 section label{
-	margin-bottom: .3em;
 	color: var(--label);
-	margin-bottom: 0;
 }
-section p{
-	margin-top: .2em;
+section p, .estrellas{
+	margin-top: .3em;
 }
 
 section label, section p{
@@ -40,5 +38,14 @@ section .datosViaje{
 section button{
 	margin-top: 0;
 	margin-bottom: 1em;
+	outline: none;
+}
+
+
+.estrellas i{
+	margin: .2em;
+	font-size: 1.3em;
+	color: var(--estrella);
+	cursor: pointer;
 	outline: none;
 }

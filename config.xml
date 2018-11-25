@@ -39,7 +39,7 @@
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />-->
 
-    <icon src="img/bus.png" />
+    <icon src="img/logo2.png" />
         <access origin="*"/>
 
     <plugin name="cordova-plugin-whitelist" version="1" />

@@ -48,12 +48,19 @@
 			</div>
 		</div>
 	</nav>
-
-	<div class="contenedor">
+<div class="contenedor">
 		<header>
 			<h1>Historial de viajes</h1>
-			<p>Tus últimos 6 viajes son:</p>
+			<p>A continuación se muestran los viajes que haz realizado:</p>
 		</header>
+
+		<div class="buscador">
+			<p>Selecciona la fecha del viaje:</p>
+			<div class="buscar">
+				<input type="date" name="">
+				<button class="btn aceptar">Consultar</button>
+			</div>
+		</div>
 
 		<section id="viajes" class="viajes">
 
@@ -71,9 +78,13 @@
 
 					<div class="dato">
 						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
+						<div class="ruta">
+							<p>- Centro Universitario (C.U)</p>
+							<p>- Campus Juriquilla</p>
+						</div>
 					</div>
 				</div>
+				<i class="fas fa-plus" onclick="navegar('datosHistorialViaje.html')"></i>
 				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
 			</div>
 
@@ -91,9 +102,13 @@
 
 					<div class="dato">
 						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
+						<div class="ruta">
+							<p>- Centro Universitario (C.U)</p>
+							<p>- Campus Juriquilla</p>
+						</div>
 					</div>
 				</div>
+				<i class="fas fa-plus" onclick="navegar('datosHistorialViaje.html')"></i>
 				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
 			</div>
 
@@ -111,74 +126,17 @@
 
 					<div class="dato">
 						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
+						<div class="ruta">
+							<p>- Centro Universitario (C.U)</p>
+							<p>- Campus Juriquilla</p>
+						</div>
 					</div>
 				</div>
+				<i class="fas fa-plus" onclick="navegar('datosHistorialViaje.html')"></i>
 				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
 			</div>
 
-			<div class="viaje">
-				<div class="datos">
-					<div class="dato">
-						<label>Fecha:</label>
-						<p>11/09/2018</p>
-					</div>
-
-					<div class="dato">
-						<label>Horario:</label>
-						<p>08:30</p>
-					</div>
-
-					<div class="dato">
-						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
-					</div>
-				</div>
-				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
-			</div>
-
-			<div class="viaje">
-				<div class="datos">
-					<div class="dato">
-						<label>Fecha:</label>
-						<p>11/09/2018</p>
-					</div>
-
-					<div class="dato">
-						<label>Horario:</label>
-						<p>08:30</p>
-					</div>
-
-					<div class="dato">
-						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
-					</div>
-				</div>
-				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
-			</div>
-
-			<div class="viaje">
-				<div class="datos">
-					<div class="dato">
-						<label>Fecha:</label>
-						<p>11/09/2018</p>
-					</div>
-
-					<div class="dato">
-						<label>Horario:</label>
-						<p>08:30</p>
-					</div>
-
-					<div class="dato">
-						<label>Ruta:</label>
-						<p>CU - Campus Juriquilla</p>
-					</div>
-				</div>
-				<i class="fas fa-trash-alt" onclick="mostrarPopUp('popUp', 'modal')"></i>
-			</div>
-
-		</section>		
+		</section>
 	</div>
-
 </body>
 </html>
