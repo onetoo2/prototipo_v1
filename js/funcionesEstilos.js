@@ -108,3 +108,18 @@ function mostrarHorario(id){
 }
 
 
+function anuncioModal(){
+	esconderPopUp('popUp', 'modal');
+	mostrarModalNotificacion('modalNotificacion');
+}
+
+function anuncioModal2(){
+	anuncioModal();
+	document.getElementById('viajes').innerHTML = "<div class='viaje'><p>No hay viajes guardados</p></div>";
+}
+
+function nav2(liga){
+	esconderPopUp('popUp', 'modal');
+	navegar(liga);
+	
+}

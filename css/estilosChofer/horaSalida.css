@@ -3,7 +3,6 @@
 	margin-left:28%;
 	margin-top: 0;
 	font-size: 1.1em;
-
 }
 .dato p{
 	color: var(--gris2);
@@ -13,4 +12,19 @@
 	float: left;
 	color: var(--label);
 	text-align: center;
+}
+
+.contenedor img{
+	width: 50%;
+}
+
+@media (min-width: 550px){
+	.contenedor img{
+		width: 13%;
+	}
+
+	.datosSalida{
+		width: 30%;
+		margin-left: 44%;
+	}
 }

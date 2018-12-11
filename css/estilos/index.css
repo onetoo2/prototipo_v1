@@ -10,16 +10,21 @@ a:focus, button:focus, input:focus, textarea:focus, i:focus{
 	outline: none;
 }
 
-section{
+.contenedor{
+	margin-top: 7em;
+	width: 100%;
+}
+
+.contenedor section{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	float: left;
 	margin: 0;
+	width: 100%;
 	align-items: center;
 }
 
 .app{
-	padding-top: 32%;
 	color: var(--gris);
 	box-sizing: border-box;
 }

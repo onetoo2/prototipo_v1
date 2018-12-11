@@ -12,6 +12,10 @@
 .contenedor header>p{
 	margin-bottom: 0;
 }
+.contenedorAsistencia img{
+	width: 50%;
+}
+
 
 .btns{
 	margin-bottom: 3em;
@@ -22,4 +26,10 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 1em;
+}
+
+@media (min-width: 990px){
+	.contenedorAsistencia img{
+		width: 13%;
+	}
 }

@@ -12,6 +12,7 @@
 	opacity: 0;
 }
 
+
 .modalNotificacion p{
 	margin: 1em .5em;
 	font-size: 1.1em;
@@ -77,4 +78,21 @@
 	right: -60%;
 	transition: .6s all;
 
+}
+
+@media (min-width: 990px){
+	.modalNotificacion{
+		right: 35%;
+		width: 20%;
+	}
+
+	.modalAlerta{
+		width: 24%;
+		left: 38%;
+	}
+
+	.popUp{
+		width: 30%;
+		left: 35%;
+	}
 }

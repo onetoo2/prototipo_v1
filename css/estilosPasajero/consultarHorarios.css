@@ -8,6 +8,13 @@
 	align-items: center;
 }
 
+@media (min-width: 550px){
+	.contenedorHorarios{
+		width: 24%;
+		margin-left: 38%;
+	}
+}
+
 .contenedorHorarios label{
 	display: block;
 	margin-bottom: 1em;

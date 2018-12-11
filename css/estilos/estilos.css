@@ -1,6 +1,7 @@
 *{
 	font-family: 'Questrial', 'Segoe UI', sans-serif;
 	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 button, input, a{
 	outline: none;
@@ -105,6 +106,8 @@ nav>.iconos{
 header, .form, section, .btns{
 	width: 80%;
 	margin-left:10%;
+	/*width: 30%;
+	margin-left: 35%;*/
 }
 
 .form, .contenido{
@@ -187,4 +190,18 @@ input, textarea, button, input[type=submit], {
 
 .mostrar{
 	display: all;
+}
+
+
+@media (min-width: 990px){
+	header, .form, section, .btns, .contenedorHorarios{
+		width: 24%;
+		margin-left: 38%;
+	}
+
+	.bloque-top, .contenido-nav{
+		width: 30%;
+		margin-left: 35%;
+	}
+
 }

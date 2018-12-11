@@ -22,9 +22,6 @@
 	color: var(--rojo);
 }
 
-button, input[type=submit]{
-	outline: none;
-}
-a:focus, button:focus, input:focus, textarea:focus, i:focus{
+button, input[type=submit], img, i{
 	outline: none;
 }

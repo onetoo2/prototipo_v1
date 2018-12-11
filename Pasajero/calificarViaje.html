@@ -21,6 +21,11 @@
 		<a href="../index.html">Cerrar sesión</a>
 	</div>
 
+	<!-- Modal notificación -->
+	<div class="modalNotificacion invisible" id="modal2">
+		<p>Calificación enviada exitosamente</p>
+	</div>
+
 	<div class="bloque-top">
 		<p>UAQ-ANDA</p>
 	</div>
@@ -50,10 +55,10 @@
 				<h2>Datos del viaje</h2>
 				
 				<label>Fecha:</label>
-				<p>19-07-18</p>
+				<p>07-12-18</p>
 
 				<label>Origen:</label>
-				<p>CU</p>
+				<p>Centro Universitario (C.U.)</p>
 
 				<label>Destino:</label>
 				<p>Campus Juriquilla</p>
@@ -82,11 +87,11 @@
 				<h2>Retroalimentación</h2>
 
 				<label>Escribe una breve retroalimentación (opcional):</label>
-				<textarea placeholder="¿Cuál fue tu experiencia durante el viaje?..."></textarea>
+				<textarea placeholder="¿Cuál fue tu experiencia durante el viaje?"></textarea>
 
 			</div>
 
-			<button onclick="prueba('hola')" class="aceptar">Enviar calificación</button>
+			<button onclick="mostrarModalNotificacion('modalNotificacion');" class="aceptar">Enviar calificación</button>
 
 		</section>
 	</div>

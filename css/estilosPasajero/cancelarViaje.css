@@ -5,6 +5,13 @@ section{
 	margin-bottom: 4em;
 }
 
+@media (min-width: 990px){
+	section{
+		width: 24%;
+		margin-left: 38%;
+	}
+}
+
 section label{
 	color: var(--label);
 }
